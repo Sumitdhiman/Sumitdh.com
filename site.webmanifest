@@ -1,0 +1,26 @@
+{
+    "name": "Sumit Dhiman - Portfolio",
+    "short_name": "Sumit Dhiman",
+    "description": "Microsoft MVP & IT Systems Administrator Portfolio",
+    "icons": [
+        {
+            "src": "favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2563eb",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/"
+}
