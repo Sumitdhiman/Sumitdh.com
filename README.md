@@ -1,6 +1,6 @@
 # Sumit Dhiman - Personal Portfolio Website
 
-A modern, responsive portfolio website showcasing the professional journey, skills, and achievements of Sumit Dhiman - Microsoft MVP, IT Systems Administrator, and AI Data Specialist.
+A modern, responsive portfolio website showcasing the professional journey, skills, and achievements of Sumit Dhiman - Microsoft MVP, IT Systems Administrator, and AI Data Specialist. Check out at https://sumitdh.com
 
 ## 🌟 About
 
@@ -116,7 +116,6 @@ The website uses CSS custom properties (variables) for easy theming:
 ## 📧 Contact
 
 - **Email**: sumit@yourwindowsguide.com
-- **Phone**: +91-8427098087
 - **Location**: Zirakpur, Punjab, India
 - **LinkedIn**: [sumitdhmn](https://www.linkedin.com/in/sumitdhmn/)
 - **GitHub**: [sumitdhiman](https://github.com/sumitdhiman)
