@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumit Dhiman - Portfolio</title>
-    
-    <!-- Favicon -->
+    <!-- Favicon & Manifest -->
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon180.png">
     <link rel="manifest" href="site.webmanifest">
-    
+    <!-- Styles & Fonts -->
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar glass">
         <div class="nav-container">
             <div class="nav-logo">
                 <span>Sumit Dhiman</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#resume" class="nav-link">Resume</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -41,28 +40,27 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero gradient-bg">
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">
                         Hi, I'm <span class="highlight">Sumit Dhiman</span>
+                        <span class="wave">👋</span>
                     </h1>
                     <p class="hero-subtitle">Microsoft MVP & IT Systems Administrator</p>
                     <p class="hero-description">
-                        Experienced IT professional with 6+ years in Microsoft ecosystem technologies, technical support, 
-                        and AI training. Microsoft MVP for 3 consecutive years with 60,000+ support cases handled.
+                        6+ years in Microsoft technologies, technical support, and AI training.<br>
+                        <span class="badge">3x Microsoft MVP</span> <span class="badge">60,000+ cases resolved</span>
                     </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> Get In Touch</a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <div class="profile-card">
-                        <div class="profile-image">
-                            <img src="assets/icons/sumit.jpg" alt="Sumit Dhiman" id="profile-img">
-                        </div>
+                    <div class="profile-card glass">
+                        <img src="assets/icons/sumit.jpg" alt="Sumit Dhiman" class="profile-img">
                         <div class="profile-status">
                             <span class="status-dot"></span>
                             Available for projects
@@ -70,170 +68,109 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Social Links -->
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank" class="social-link">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://x.com/_sumitdh" target="_blank" class="social-link">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://github.com/sumitdhiman" target="_blank" class="social-link">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.yourwindowsguide.com/" target="_blank" class="social-link">
-                    <i class="fas fa-globe"></i>
-                </a>
-                <a href="https://buymeacoffee.com/yourwindowsguide" target="_blank" class="social-link">
-                    <i class="fas fa-coffee"></i>
-                </a>
+                <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/_sumitdh" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/sumitdhiman" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.yourwindowsguide.com/" target="_blank" class="social-link"><i class="fas fa-globe"></i></a>
+                <a href="https://buymeacoffee.com/yourwindowsguide" target="_blank" class="social-link"><i class="fas fa-coffee"></i></a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about section">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <div class="about-text">
-                    <p class="about-description">
-                        I'm an experienced IT Systems Administrator with 6+ years of expertise in Microsoft ecosystem 
-                        technologies, based in Mohali, India. As a <strong>Microsoft MVP for 3 consecutive years 
-                        (2018-2021)</strong>, I've been recognized for exceptional community contributions and helping 
-                        thousands of users navigate technology challenges.
-                    </p>
-                    <p class="about-description">
-                        Currently working as an Independent Advisor at Microsoft Community, I've successfully handled 
-                        over <strong>60,000+ support cases</strong> while maintaining high-quality standards. Through 
-                        my website <strong>Your Windows Guide</strong>, I continue to educate users about Windows and 
-                        Microsoft 365 technologies with 30K+ monthly views.
+                <div class="about-text glass">
+                    <p>
+                        IT Systems Administrator based in Mohali, India.<br>
+                        <strong>Microsoft MVP (2018-2021)</strong> for community contributions.<br>
+                        <strong>60,000+ support cases</strong> handled at Microsoft Community.<br>
+                        Founder of <a href="https://www.yourwindowsguide.com/" target="_blank">Your Windows Guide</a> (30K+ monthly views).
                     </p>
                     <div class="about-stats">
-                        <div class="stat">
+                        <div class="stat glass">
                             <h3>60K+</h3>
                             <p>Support Cases</p>
                         </div>
-                        <div class="stat">
+                        <div class="stat glass">
                             <h3>3</h3>
                             <p>MVP Awards</p>
                         </div>
-                        <div class="stat">
+                        <div class="stat glass">
                             <h3>30K+</h3>
-                            <p>Monthly Website Views</p>
+                            <p>Monthly Views</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <div class="about-img-container">
-                        <img src="assets/icons/about.png" alt="About Sumit" id="about-img">
-                    </div>
+                    <img src="assets/icons/about.png" alt="About Sumit" class="about-img glass">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="resume">
+    <section id="resume" class="resume section">
         <div class="container">
             <h2 class="section-title">Resume</h2>
             <div class="resume-content">
-                
-                <!-- Please update this section with your actual resume details -->
-                <div class="resume-highlights">
+                <div class="resume-highlights glass">
                     <h3>Professional Highlights</h3>
                     <div class="highlight-grid">
                         <div class="highlight-item">
                             <h4>Education</h4>
-                            <p><strong>Bachelor of Technology</strong></p>
-                            <p>Computer Science & Engineering</p>
+                            <p><strong>B.Tech, CSE</strong></p>
                             <p>Chandigarh Engineering College, Mohali (79%)</p>
-                            <p>July 2014 - June 2018</p>
+                            <p>2014 - 2018</p>
                         </div>
                         <div class="highlight-item">
                             <h4>Certifications</h4>
-                            <p><strong>Microsoft 365 Fundamentals (MS-900)</strong></p>
-                            <p>Microsoft ExpertZone Certifications</p>
-                            <p>LinkedIn Learning: Teams, Entra ID, Server Admin</p>
-                            <p>Modern Endpoints & Copilot Accreditations</p>
+                            <p>Microsoft 365 Fundamentals (MS-900)</p>
+                            <p>ExpertZone, LinkedIn Learning</p>
                         </div>
                         <div class="highlight-item">
                             <h4>Specializations</h4>
-                            <p><strong>Microsoft Technologies Expert</strong></p>
-                            <p>Windows & Microsoft 365 Administration</p>
-                            <p>AI Data Training & Annotation</p>
-                            <p>Technical Support & Helpdesk</p>
+                            <p>Microsoft 365, Windows, AI Data Training</p>
                         </div>
                         <div class="highlight-item">
                             <h4>Achievements</h4>
-                            <p><strong>Microsoft MVP (2018-2021)</strong></p>
-                            <p>60,000+ Support Cases Resolved</p>
-                            <p>Volunteer Moderator at Microsoft Q&A</p>
-                            <p>30+ Technical Articles Published</p>
+                            <p>Microsoft MVP (2018-2021)</p>
+                            <p>60,000+ Cases Resolved</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Work Experience - Please update with your actual experience -->
-                <div class="work-experience">
+                <div class="work-experience glass">
                     <h3>Professional Experience</h3>
                     <div class="experience-list">
                         <div class="experience-item">
-                            <div class="experience-header">
-                                <h4>Independent Advisor</h4>
-                                <span class="experience-company">Microsoft Community</span>
-                                <span class="experience-date">Jan 2019 - Present</span>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Working as support Engineer at Microsoft's largest support forums by volume</li>
-                                <li>Handled 60,000+ cases while maintaining 85% quality score</li>
-                                <li>Providing L1 and L2 support for Microsoft 365, Windows, and Microsoft Copilot</li>
-                                <li>Working as Gig Guide to train new Independent Advisors</li>
-                                <li>Expertise in OnDemand and Limitless Platform support</li>
+                            <h4>Independent Advisor</h4>
+                            <span>Microsoft Community</span>
+                            <span class="exp-date">2019 - Present</span>
+                            <ul>
+                                <li>Support Engineer at Microsoft forums</li>
+                                <li>60,000+ cases, 85% quality score</li>
+                                <li>L1/L2 support for Microsoft 365, Windows, Copilot</li>
                             </ul>
                         </div>
-                        
                         <div class="experience-item">
-                            <div class="experience-header">
-                                <h4>AI Data Trainer</h4>
-                                <span class="experience-company">Outlier AI</span>
-                                <span class="experience-date">June 2024 - Present</span>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Working as freelance AI Data Trainer for training AI models</li>
-                                <li>Specializing in training AI models in Punjabi language</li>
-                                <li>Contributing to large language model development</li>
-                                <li>Ensuring data quality and accuracy for AI training datasets</li>
+                            <h4>AI Data Trainer</h4>
+                            <span>Outlier AI</span>
+                            <span class="exp-date">2024 - Present</span>
+                            <ul>
+                                <li>Training AI models (Punjabi language)</li>
+                                <li>Data quality for LLMs</li>
                             </ul>
                         </div>
-
                         <div class="experience-item">
-                            <div class="experience-header">
-                                <h4>AI Data Annotator</h4>
-                                <span class="experience-company">Translated</span>
-                                <span class="experience-date">Sept 2024 - Jan 2025</span>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Working as AI Data Annotator for English language processing</li>
-                                <li>Training large language models for USA-based company</li>
-                                <li>Data annotation and quality assurance for AI systems</li>
-                                <li>Remote collaboration with international development teams</li>
-                            </ul>
-                        </div>
-
-                        <div class="experience-item">
-                            <div class="experience-header">
-                                <h4>Systems Administrator</h4>
-                                <span class="experience-company">MindSprings India Private Limited</span>
-                                <span class="experience-date">July 2017 - Aug 2018</span>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Managed IT Operations for law firm with multiple locations</li>
-                                <li>Oversaw network infrastructure for 3 sites in Chandigarh, Birmingham, and Calgary</li>
-                                <li>Implemented and maintained Windows Server environments</li>
-                                <li>Provided remote technical support and system administration</li>
-                                <li>Managed user accounts, permissions, and security protocols</li>
+                            <h4>Systems Administrator</h4>
+                            <span>MindSprings India Pvt Ltd</span>
+                            <span class="exp-date">2017 - 2018</span>
+                            <ul>
+                                <li>Managed IT for multi-site law firm</li>
+                                <li>Windows Server, remote support</li>
                             </ul>
                         </div>
                     </div>
@@ -243,48 +180,44 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
+    <section id="skills" class="skills section">
         <div class="container">
             <h2 class="section-title">Skills & Technologies</h2>
             <div class="skills-grid">
-                <div class="skill-category">
+                <div class="skill-category glass">
                     <h3>Microsoft Technologies</h3>
                     <div class="skill-list">
                         <span class="skill-tag">Microsoft 365</span>
                         <span class="skill-tag">Windows Server</span>
-                        <span class="skill-tag">Windows 10/11</span>
-                        <span class="skill-tag">Microsoft Copilot</span>
-                        <span class="skill-tag">Microsoft Entra ID</span>
+                        <span class="skill-tag">Copilot</span>
+                        <span class="skill-tag">Entra ID</span>
                     </div>
                 </div>
-                <div class="skill-category">
+                <div class="skill-category glass">
                     <h3>Technical Support</h3>
                     <div class="skill-list">
-                        <span class="skill-tag">IT Troubleshooting</span>
-                        <span class="skill-tag">Helpdesk Support</span>
-                        <span class="skill-tag">Technical Documentation</span>
+                        <span class="skill-tag">Troubleshooting</span>
+                        <span class="skill-tag">Helpdesk</span>
+                        <span class="skill-tag">Documentation</span>
                         <span class="skill-tag">User Training</span>
-                        <span class="skill-tag">Escalation Management</span>
                     </div>
                 </div>
-                <div class="skill-category">
+                <div class="skill-category glass">
                     <h3>AI & Data</h3>
                     <div class="skill-list">
                         <span class="skill-tag">AI Data Training</span>
-                        <span class="skill-tag">Data Annotation</span>
+                        <span class="skill-tag">Annotation</span>
                         <span class="skill-tag">LLM Training</span>
                         <span class="skill-tag">Generative AI</span>
-                        <span class="skill-tag">Quality Assurance</span>
                     </div>
                 </div>
-                <div class="skill-category">
+                <div class="skill-category glass">
                     <h3>System Administration</h3>
                     <div class="skill-list">
-                        <span class="skill-tag">Network Administration</span>
-                        <span class="skill-tag">System Monitoring</span>
-                        <span class="skill-tag">Security Management</span>
+                        <span class="skill-tag">Network Admin</span>
+                        <span class="skill-tag">Monitoring</span>
+                        <span class="skill-tag">Security</span>
                         <span class="skill-tag">Remote Support</span>
-                        <span class="skill-tag">Infrastructure Management</span>
                     </div>
                 </div>
             </div>
@@ -292,90 +225,45 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="projects" class="projects section">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Your Windows Guide Website -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="https://www.yourwindowsguide.com/" target="_blank" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <img src="assets/icons/ywg.png" alt="Your Windows Guide" id="project-website-img">
-                    </div>
+                <div class="project-card glass">
+                    <img src="assets/icons/ywg.png" alt="Your Windows Guide" class="project-img">
                     <div class="project-content">
                         <h3>Your Windows Guide</h3>
-                        <p>A comprehensive tech blog focusing on Microsoft ecosystem with 30K+ monthly views. 
-                           Providing tutorials, guides, and tips for Windows and Microsoft 365 users. Built as a 
-                           side hustle to keep users updated about latest features and solutions.</p>
+                        <p>Tech blog for Microsoft ecosystem. Tutorials, guides, 30K+ monthly views.</p>
                         <div class="project-tech">
                             <span class="tech-tag">WordPress</span>
                             <span class="tech-tag">SEO</span>
                             <span class="tech-tag">Content Creation</span>
-                            <span class="tech-tag">Technical Writing</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://www.yourwindowsguide.com/" target="_blank" class="project-btn">
-                                Visit Website
-                            </a>
-                        </div>
+                        <a href="https://www.yourwindowsguide.com/" target="_blank" class="project-btn">Visit Website</a>
                     </div>
                 </div>
-
-                <!-- Browser Sticky Notes Extension -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <img src="assets/icons/icon-browser.png" alt="Browser Sticky Notes" id="project-sticky-img">
-                    </div>
+                <div class="project-card glass">
+                    <img src="assets/icons/icon-browser.png" alt="Browser Sticky Notes" class="project-img">
                     <div class="project-content">
                         <h3>📝 Browser Sticky Notes</h3>
-                        <p>A simple browser extension that allows you to create and manage sticky notes 
-                           directly in your browser. Perfect for quick reminders and note-taking.</p>
+                        <p>Browser extension for quick sticky notes and reminders.</p>
                         <div class="project-tech">
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">Chrome API</span>
-                            <span class="tech-tag">HTML/CSS</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Sumitdhiman/Browser-Sticky-Notes" target="_blank" class="project-btn">
-                                View Code
-                            </a>
-                        </div>
+                        <a href="https://github.com/Sumitdhiman/Browser-Sticky-Notes" target="_blank" class="project-btn">View Code</a>
                     </div>
                 </div>
-
-                <!-- Open Internet Archive Extension -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <img src="assets/icons/icon-archive.png" alt="Open Internet Archive" id="project-archive-img">
-                    </div>
+                <div class="project-card glass">
+                    <img src="assets/icons/icon-archive.png" alt="Open Internet Archive" class="project-img">
                     <div class="project-content">
                         <h3>📂 Open Internet Archive</h3>
-                        <p>This browser extension allows users to quickly open the current webpage in 
-                           archive.today, making it easy to access archived versions of web pages.</p>
+                        <p>Extension to open current webpage in archive.today.</p>
                         <div class="project-tech">
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">WebExtensions</span>
-                            <span class="tech-tag">Browser APIs</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Sumitdhiman/InternetArchive" target="_blank" class="project-btn">
-                                View Code
-                            </a>
-                        </div>
+                        <a href="https://github.com/Sumitdhiman/InternetArchive" target="_blank" class="project-btn">View Code</a>
                     </div>
                 </div>
             </div>
@@ -383,41 +271,35 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="experience">
+    <section id="experience" class="experience section">
         <div class="container">
             <h2 class="section-title">Experience & Background</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
+                    <div class="timeline-content glass">
                         <h3>Microsoft MVP & Community Leader</h3>
                         <h4>Microsoft Community & Your Windows Guide</h4>
                         <p class="timeline-date">2018 - Present</p>
-                        <p>Awarded Microsoft MVP for 3 consecutive years (2018-2021) for exceptional community 
-                           contributions. Currently managing 60K+ support cases and running a tech blog with 
-                           30K+ monthly views, helping thousands of users worldwide.</p>
+                        <p>Awarded Microsoft MVP for 3 years. 60K+ support cases. Tech blog with 30K+ monthly views.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
+                    <div class="timeline-content glass">
                         <h3>AI Data Specialist</h3>
                         <h4>Outlier AI & Translated</h4>
                         <p class="timeline-date">2024 - Present</p>
-                        <p>Expanding expertise into AI and machine learning by training language models and 
-                           data annotation. Working with international teams on cutting-edge AI projects 
-                           including Punjabi language model training.</p>
+                        <p>Training and annotating data for AI models. Punjabi language LLMs.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
-                    <div class="timeline-content">
+                    <div class="timeline-content glass">
                         <h3>Systems Administrator</h3>
                         <h4>Corporate IT Management</h4>
                         <p class="timeline-date">2017 - 2018</p>
-                        <p>Managed multi-site IT infrastructure for international law firm, overseeing operations 
-                           across Chandigarh, Birmingham, and Calgary. Built strong foundation in enterprise 
-                           system administration and remote support.</p>
+                        <p>Managed IT infrastructure for international law firm.</p>
                     </div>
                 </div>
             </div>
@@ -425,47 +307,25 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section">
         <div class="container">
             <h2 class="section-title">Let's Connect</h2>
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-info glass">
                     <h3>Get In Touch</h3>
-                    <p>I'm always interested in new opportunities, collaborations, and conversations 
-                       about technology. Feel free to reach out!</p>
-                    
+                    <p>Open to new opportunities, collaborations, and tech conversations.</p>
                     <div class="contact-methods">
-                        <div class="contact-method">
-                            <i class="fas fa-envelope"></i>
-                            <span>sumit@yourwindowsguide.com</span>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-phone"></i>
-                            <span>+91-8427098087</span>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Zirakpur, Punjab, India</span>
-                        </div>
+                        <div class="contact-method"><i class="fas fa-envelope"></i> sumit@yourwindowsguide.com</div>
+                        <div class="contact-method"><i class="fas fa-phone"></i> +91-8427098087</div>
+                        <div class="contact-method"><i class="fas fa-map-marker-alt"></i> Zirakpur, Punjab, India</div>
                     </div>
-
                     <div class="contact-social">
-                        <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank" class="social-btn">
-                            <i class="fab fa-linkedin"></i>
-                            LinkedIn
-                        </a>
-                        <a href="https://github.com/sumitdhiman" target="_blank" class="social-btn">
-                            <i class="fab fa-github"></i>
-                            GitHub
-                        </a>
-                        <a href="https://buymeacoffee.com/yourwindowsguide" target="_blank" class="social-btn coffee-btn">
-                            <i class="fas fa-coffee"></i>
-                            Buy Me Coffee
-                        </a>
+                        <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/sumitdhiman" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://buymeacoffee.com/yourwindowsguide" target="_blank" class="social-btn coffee-btn"><i class="fas fa-coffee"></i> Buy Me Coffee</a>
                     </div>
                 </div>
-
-                <div class="contact-form">
+                <div class="contact-form glass">
                     <form id="contactForm">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -491,7 +351,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer glass">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-text">
@@ -499,23 +359,14 @@
                     <p>Built with ❤️ and lots of ☕</p>
                 </div>
                 <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://x.com/_sumitdh" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://github.com/sumitdhiman" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.yourwindowsguide.com/" target="_blank">
-                        <i class="fas fa-globe"></i>
-                    </a>
+                    <a href="https://www.linkedin.com/in/sumitdhmn/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/_sumitdh" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/sumitdhiman" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.yourwindowsguide.com/" target="_blank"><i class="fas fa-globe"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-
     <script src="assets/scripts/script.js"></script>
 </body>
 </html>
